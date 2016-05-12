@@ -1,0 +1,191 @@
+.cbox {
+    width: auto;
+}
+
+.blueGra { 
+    background: #FFF;
+    background: -moz-linear-gradient(top, #ffffff 53%, #6393c1 53%, #6393c1 53%, #6393c1 63%);
+    background: -webkit-linear-gradient(top, #FFF 53%,#6393c1 53%,#6393c1 53%,#8DA1B4 63%);
+    background: linear-gradient(to bottom, #FFF 53%,#6393c1 53%,#6393c1 53%,#8DA1B4 63%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#6393c1',GradientType=0 );
+
+}
+
+.blueSub {
+    color: #0e4880;
+}
+
+.greenSub {
+    color: green;
+}
+
+.short {
+    width: 70%;
+}
+
+.short70 {
+    width: 100%;
+}
+
+#topSave {
+    margin: 3% 2% 0 0;
+}
+
+.checkboxReset {
+    width: auto;
+}
+
+.colorBlueDKBtn {
+    background-color: #0e4880;
+    color: #FFF !important;
+    width: auto !important;
+}
+
+.colorBlueDKBtn:hover {
+    background-color: #0B69C1;
+    color: #A7A6A6 !important;
+    width: auto !important;
+}
+
+.colorRedBtn {
+    background-color: #E00505;
+    color: #EEE !important;
+    width: auto !important;
+}
+
+.colorRedBtn:hover {
+    background-color: #5F0F0F;
+    color: #9E4343 !important;
+    width: auto !important;
+}
+
+.colorYellowBtn {
+    background-color: #EAAC1A;
+    color: #EEE !important;
+    width: auto !important;
+}
+
+.colorYellowBtn:hover {
+    background-color: #86837C;
+    color: #BFBFBF !important;
+    width: auto !important;
+}
+
+.colorBlueDKBtn:hover, .colorBlueDKBtn:focus, .colorBlueDKBtn:active {
+    background-color: #3b7ab5;
+    color: #FFF !important;
+    width: auto !important;
+}
+
+.colorBlueBtn {
+    background-color: #3b7ab5;
+    color: #FFF !important;
+    width: auto !important;
+}
+
+.colorBlueBtn:hover, .colorBlueBtn:focus, .colorBlueBtn:active {
+    background-color: #0e4880;
+    color: #FFF !important;
+    width: auto !important;
+}
+
+.centerAdmin {
+    /*margin: 15% auto 35% auto;*/
+    display: block;
+    float: none;
+}
+
+.buttonBox {
+    position: absolute;
+    bottom:0;
+    right:0;
+    margin-bottom: 15px;
+}
+
+@media screen and (max-width: 1024px) {
+  .buttonBox {
+    position: inherit !important;
+    margin-right: -15px;
+  }
+}
+
+.outer-wrapper {
+  text-align: center;
+}
+
+.table-wrapper {
+  margin: 15px auto;
+}
+
+.main-table {
+  background: #EBEFF3;
+}
+
+.main-table tbody tr td {
+  text-align: #EBEFF3;
+}
+
+.header {
+  background: #DDD;
+  font-size: 1.15em;
+}
+
+.header th {
+  text-align: center;
+}
+
+input {
+  text-align: right; 
+  width: 70px; 
+}
+
+.day-total, .week-total {
+  text-align: right;
+  width: 65px;
+}
+
+td.total-label {
+  text-align: right;
+  padding-right: 15px;
+}
+
+td.clear-button {
+  text-align: center; 
+}
+
+td.white-button {
+  text-align: center; 
+  color: white;
+}
+
+div.instructions {
+  text-align:left;
+  margin: 0 auto;
+  width: 320px;
+  position: relative;
+  top: 20px;
+}
+
+div.instructions {
+  font-size: 0.85em;
+}
+
+textarea {
+    background-color: #C8CDD4;
+}
+
+hr {
+   height: 0;
+   max-height: 0;
+   font-size: 1px;
+   line-height: 0;
+   clear: both;
+}
+
+/* for debugging layouts 
+body, h3, div, table, td, .header th, .outer-wrapper, 
+.table-wrapper, div.instructions {
+  border: 1px solid;
+}
+*/
+
